@@ -13,7 +13,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="AssetForm" component={AssetFormScreen} options={{ title: 'Add / Edit Asset' }} />
-        <Stack.Screen name="AssetDetail" component={AssetDetailScreen} options={{ title: 'Asset Details' }} />
+        <Stack.Screen name="AssetsDetail" component={AssetDetailScreen} options={{ title: 'Asset Details' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
